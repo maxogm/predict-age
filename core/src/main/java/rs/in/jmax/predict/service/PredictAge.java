@@ -7,7 +7,7 @@ import lombok.Value;
 @Builder
 public class PredictAge {
 
-    private String name;
-    private Integer age;
+    String name;
+    Integer age;
 
 }
