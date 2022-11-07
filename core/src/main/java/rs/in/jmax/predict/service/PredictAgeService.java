@@ -1,4 +1,4 @@
-package rs.in.jmax.predict;
+package rs.in.jmax.predict.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

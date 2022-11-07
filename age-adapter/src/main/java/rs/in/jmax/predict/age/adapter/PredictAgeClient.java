@@ -1,4 +1,4 @@
-package rs.in.jmax.predict;
+package rs.in.jmax.predict.age.adapter;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

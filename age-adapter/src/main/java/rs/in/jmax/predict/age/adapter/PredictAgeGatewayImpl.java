@@ -1,7 +1,9 @@
-package rs.in.jmax.predict;
+package rs.in.jmax.predict.age.adapter;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import rs.in.jmax.predict.service.PredictAge;
+import rs.in.jmax.predict.service.PredictAgeGateway;
 
 @Service
 @RequiredArgsConstructor
