@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: predict-age
+
+server:
+  port: 8080
