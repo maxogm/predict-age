@@ -24,6 +24,10 @@
             <groupId>rs.in.jmax.predict</groupId>
             <artifactId>age-adapter</artifactId>
         </dependency>
+        <dependency>
+            <groupId>rs.in.jmax.predict</groupId>
+            <artifactId>actuator-adapter</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -31,6 +35,13 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>build-info</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

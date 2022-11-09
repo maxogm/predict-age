@@ -21,6 +21,7 @@
         <module>api</module>
         <module>core</module>
         <module>age-adapter</module>
+        <module>actuator-adapter</module>
     </modules>
 
     <properties>
@@ -82,6 +83,11 @@
             <dependency>
                 <groupId>rs.in.jmax.predict</groupId>
                 <artifactId>age-adapter</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>rs.in.jmax.predict</groupId>
+                <artifactId>actuator-adapter</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
